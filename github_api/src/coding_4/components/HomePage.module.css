@@ -1,0 +1,101 @@
+.main{
+    border: 2px solid black;
+    /* padding: 10px; */
+    /* margin: auto; */
+    width: 500px;
+}
+
+.container{
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+    /* margin: 30px; */
+    /* height: 350px; */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+/* .beforeCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+} */
+
+.headDiv{
+    background-color: #1A237E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.allJobs{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    margin-left: 80%;
+    /* position: absolute; */
+    /* align-self: right; */
+    /* background-color: red; */
+    padding: 20px 20px;
+}
+.heading{
+    border-bottom: 2px solid black;
+}
+
+.content > *{
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+button{
+    padding: 20px 30px;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    margin: 10px 50px;
+    font-weight: bold;
+    font-size: large;
+    width: 42%;
+}
+
+.myForm{
+    padding: 10px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.myForm > *{
+    font-weight: bold;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.myForm > button{
+    /* height: 100px; */
+    /* margin: 20px 250px; */
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1A237E;
+    color:white;
+    padding: 10px;
+}
+
+.Dashboard{
+    border: 2px solid black;
+    margin: 20px;
+    padding : 0px 20px;
+    text-align: center;
+}
+
+.Dashboard > div{
+    padding: 30px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-weight: bold;
+}

@@ -1,0 +1,97 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    flex: 1;
+}
+.cont:hover{
+    background-color:#EEEEEE;
+}
+
+.cont > div > div{
+    padding: 5px;
+}
+.cont > div >:first-child{
+    font-weight: bold;
+    font-style: normal;
+}
+.cont > div > *{
+    font-style: italic;
+}
+.cont > *{
+    padding: 15px 60px;
+    width: 150px;
+}
+
+.readBtn{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #FF9800;
+    color:white;
+    border: none;
+    border-radius: 10px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.button {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin: 5px;
+}
+
+.button:hover{
+    color: white;
+    background-color: olivedrab;
+}
+
+.sortDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.body{
+    background-color: rgb(54, 203, 248);
+}
+.sortDiv > button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    color:black;
+}
+
+.sortDiv>button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.sortDiv > div{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    color:black;
+}
+
+.sortDiv > div > *{
+    padding: 5px;
+}
+
+.sortDiv > div:hover{
+    background-color: blue;
+}
